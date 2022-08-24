@@ -1,0 +1,44 @@
+body {
+  background-color: #e3f0ea;
+  overflow-x: hidden;
+}
+
+.jumbotron {
+  padding-top: 2rem;
+  background-color: #7adbae;
+}
+
+.jumbotron img {
+  width: 150px;
+  border: 1px solid #23b973;
+  box-shadow: 0 3px 5px #23b973;
+}
+
+#gallery {
+  background-color: #7adbae;
+}
+
+.gallery .gly {
+  width: 250px;
+  margin: 10px -15px;
+  transition: 0.25s;
+}
+
+.gallery .gly:hover {
+  transform: scale(1.02);
+  filter: drop-shadow(0 0 8px #008000);
+}
+
+.gallery .gly img {
+  transition: 0.3s 1s;
+}
+
+.gallery .gly img:hover {
+  filter: blur(0.9px);
+}
+
+@media (min-width: 992px) {
+  .gallery .gly {
+    width: 350px;
+  }
+}
